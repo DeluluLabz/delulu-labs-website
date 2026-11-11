@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Delulu Labs | Indie game studio</title>
+<meta name="description" content="Delulu Labs is a small indie game studio. Our first game, Cringe, is on the way.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0f0d1a;--ink:#f5f1ff;--muted:#a59fbf;--pink:#ff4fa3;--lime:#c8ff3d;--card:#1b1830}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:"Bricolage Grotesque",system-ui,sans-serif;background:var(--bg);color:var(--ink);min-height:100vh;display:flex;flex-direction:column}
+a{color:inherit}
+header{display:flex;justify-content:space-between;align-items:center;padding:24px 6vw}
+.logo{font-weight:800;font-size:22px;letter-spacing:-0.5px}
+.logo span{color:var(--pink)}
+nav a{color:var(--muted);text-decoration:none;margin-left:24px;font-size:15px}
+nav a:hover{color:var(--ink)}
+main{flex:1;padding:6vh 6vw 10vh;max-width:1100px}
+.tag{display:inline-block;background:var(--lime);color:var(--bg);font-weight:800;font-size:13px;padding:6px 12px;border-radius:999px;transform:rotate(-2deg)}
+h1{font-size:clamp(44px,8vw,96px);line-height:0.95;letter-spacing:-2px;font-weight:800;margin:24px 0}
+h1 em{font-style:normal;color:var(--pink)}
+.lead{font-size:clamp(18px,2.2vw,22px);color:var(--muted);max-width:560px;line-height:1.5}
+.game{margin-top:64px;background:var(--card);border-radius:24px;padding:36px;display:grid;grid-template-columns:auto 1fr;gap:28px;align-items:center;border:1px solid #2c2748}
+.icon{width:96px;height:96px;border-radius:22px;background:linear-gradient(135deg,var(--pink),#ff9a3d);display:grid;place-items:center;font-size:48px;transform:rotate(4deg)}
+.game h2{font-size:32px;letter-spacing:-0.5px}
+.game p{color:var(--muted);margin-top:8px;line-height:1.5}
+.soon{display:inline-block;margin-top:14px;font-size:13px;font-weight:800;color:var(--lime);letter-spacing:1px;text-transform:uppercase}
+footer{padding:28px 6vw;color:var(--muted);font-size:14px;border-top:1px solid #241f3b}
+@media(max-width:560px){.game{grid-template-columns:1fr}nav a{margin-left:14px}}
+</style>
+</head>
+<body>
+<header>
+<div class="logo">delulu<span>.</span>labs</div>
+<nav><a href="#games">Games</a><a href="mailto:hello@delululabs.com">Contact</a></nav>
+</header>
+<main>
+<span class="tag">indie game studio</span>
+<h1>We make games that are a little bit <em>delulu</em>.</h1>
+<p class="lead">Delulu Labs is a tiny studio making weird, funny games you play with friends. We are just getting started.</p>
+<section class="game" id="games">
+<div class="icon">😬</div>
+<div>
+<h2>Cringe</h2>
+<p>Our first game. Awkward moments, bad decisions, and a lot of second-hand embarrassment. Sign up opens soon.</p>
+<span class="soon">Coming soon</span>
+</div>
+</section>
+</main>
+<footer>© 2026 Delulu Labs</footer>
+</body>
+</html>
