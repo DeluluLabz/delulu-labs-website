@@ -54,7 +54,8 @@ html[lang="fa"] .tile .k{letter-spacing:0;text-transform:none}
 .tile.c .n span{color:var(--red)}
 .tile.r{background:var(--night);border:1px solid var(--r-line);color:var(--paper)}
 .tile.r .k{color:var(--gold)}
-.tile.r .n{font-family:"Lalezar","Vazirmatn",sans-serif;font-weight:400}
+.tile.r .n{font-family:"Bricolage Grotesque",system-ui,sans-serif;font-weight:800;letter-spacing:-.5px}
+[dir="rtl"] .tile.r .n,.tile.r .n:lang(fa){font-family:"Lalezar","Vazirmatn",sans-serif;font-weight:400;letter-spacing:0}
 
 /* shared bits */
 .cta{display:flex;gap:14px;flex-wrap:wrap;margin-top:30px}
@@ -103,6 +104,8 @@ html[lang="fa"] .modes span:last-child{line-height:1.8}
 @keyframes blink{0%,92%,100%{transform:scaleY(1)}95%{transform:scaleY(.1)}}
 .rword{display:flex;flex-direction:column;align-items:flex-start;direction:rtl;line-height:1}
 .rword .fa{font-family:"Lalezar","Vazirmatn",sans-serif;font-size:clamp(70px,10vw,112px);line-height:1.15;color:var(--paper)}
+.rword.en-name{direction:ltr}
+.rword .big{font-family:"Bricolage Grotesque",system-ui,sans-serif;font-weight:800;font-size:clamp(56px,9vw,96px);line-height:1.05;color:var(--paper);letter-spacing:-1px}
 .rword .lat{font-family:"Vazirmatn",system-ui,sans-serif;font-weight:800;font-size:18px;letter-spacing:10px;color:var(--gold);direction:ltr}
 .ravi .sub{color:var(--r-muted)}
 .ravi h3{font-size:20px;font-weight:800;color:var(--paper);margin:40px 0 4px}
